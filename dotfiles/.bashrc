@@ -13,6 +13,7 @@ alias ll='ls -l'
 alias la='ls -la'
 alias grep='grep --color=auto'
 alias ifconfig='grc ifconfig'
+alias ip='grc ip'
 alias ps='grc ps'
 alias netstat='grc netstat'
 alias tail='grc tail'
@@ -34,3 +35,4 @@ alias surft='tabbed surf -e'
 alias gameboy='visualboyadvance-m'
 alias telegram='./Documentos/Code/Telegram/Telegram'
 
+. "$HOME/.cargo/env"
